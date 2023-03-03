@@ -1,0 +1,268 @@
+h1{
+    font-family: cursive;
+    font-size: 82;
+}
+
+header{
+    background:radial-gradient(rgba(0, 251, 17, 0.282), rgba(144, 144, 214, 0.48));
+}
+
+.nav_header{
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: thin;
+   align-items: right
+}
+.self1{
+    font-family: fantasy;
+    font-size: 64px;
+    color: rgba(217, 152, 0, 0.677);
+    font-weight: normal;
+    text-align: left;
+    line-height: 1em;
+    letter-spacing: 0em;
+    word-spacing: 0.2em;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+}
+
+.box {
+    width: 1337px;
+    height: 300px;
+}
+.ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(134, 152, 202, 0.407);
+    animation-name: bouncing;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes bouncing {
+    0% {transform: translate(0px, -225px);}
+    25% {transform: translate(535px, -225px);}
+    50% {transform: translate(535px, -155px);}
+    70% {transform: translate(855px, -155px);}
+    80% {transform: translate(855px, -5px);}
+    100%{transform: translate(1377px, -5px);}
+}
+
+ main {
+    text-align: center;
+    
+}
+.img1{
+    border: 25px;
+    padding-left:190px;
+    padding-right: 90px;
+    margin: 15px
+}
+.img2, .img12, .img9{
+    border: 25px;
+    padding-left:90px;
+    padding-right: 0px;
+    margin: 15px
+}
+.img3, .img5, .img4, .img7, .img8, .img6, .img10{
+    border: 25px;
+    padding: 5 px;
+    margin: 15px
+}
+
+.img1:hover {
+    transform: scale(1.2)
+}
+.img4:hover {
+    transform: scale(1.2)
+}
+.img2:hover {
+    transform: scale(1.2)
+}
+.img3:hover {
+    transform: scale(1.2)
+}
+.img5:hover {
+    transform: scale(1.2)
+}
+
+.p1, .p2, .p3{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.p4{
+    text-align: center;
+}
+.img9:hover {
+    transform: scale(1.2)
+}
+.img10:hover {
+    transform: scale(1.2)
+}
+.img6:hover {
+    transform: scale(1.2)
+}
+.img12:hover {
+    transform: scale(1.2)
+}
+.img7:hover {
+    transform: scale(1.2)
+}
+.img8:hover {
+    transform: scale(1.2)
+}
+
+.endemail{
+    font-family: fantasy;
+    font-size: 66px;
+    color: rgba(217, 152, 0, 0.677);
+    font-weight: normal;
+    text-align: left;
+    line-height: 0em;
+    letter-spacing: 0em;
+    word-spacing: 0.2em;
+}
+.email{
+    font-family: fantasy;
+    font-size: 36px;
+    color: rgba(0, 18, 217, 0.677);
+    font-weight: normal;
+    line-height: 2em;
+    letter-spacing: 0em;
+    word-spacing: 0.2em;
+padding-left: 450px;
+
+}
+.finalline{
+    padding-bottom: 40px;
+}
+
+.link{
+    background: rgba(217, 152, 0, 0.677);
+margin-bottom: 0px;
+}
+
+body{
+    margin:0;
+    height:100vh
+}
+#pastelwork, #funpage{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+#content{
+    display: flex;
+    height:calc(100%-80px);
+}
+
+#header{
+height:300px;
+background:radial-gradient(rgba(0, 251, 17, 0.282), rgba(144, 144, 214, 0.48));
+} 
+.self2{
+    font-family: cursive;
+    font-size: 50px;
+    color: rgba(217, 152, 0, 0.677);
+    font-weight: normal;
+    text-align: left;
+    line-height: 1em;
+    letter-spacing: 0em;
+    word-spacing: 0.2em;
+    background-color: azure;
+    margin: 0
+}
+.worknav{
+    text-align: right;
+    padding-right: 40px;
+    word-spacing: 0.7em;
+}
+
+#footer, footer{
+    height:130px;
+    background: rgba(217, 152, 0, 0.677);
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-gap:15px;
+}
+#aside{
+    width: 300px;
+    background-color: antiquewhite;
+}
+#main{
+    flex:1;
+
+}
+#main1{
+    flex:1;
+  height:2699px  
+
+}
+.timeline{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: thin;
+    font-size: 20px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.imge{
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right:80px
+}
+.imgh{
+    padding-top: 20px;
+    padding-right: 100px;
+}
+.timeline1{
+    font-family: sans-serif;
+    font-weight: thin;
+    font-size: 15px; 
+    padding-bottom: 330px;
+}
+.imgf{
+    padding-top: 60px;
+    padding-left: 200px;
+    padding-right:80px
+}
+.imgg{
+    padding-top: 60px;
+    padding-right: 100px;
+}
+.timeline2{
+    font-family: sans-serif;
+    font-weight: thin;
+    font-size: 15px; 
+    padding-bottom: 360px;
+}
+.imga{
+    padding-top: 60px;
+    padding-left: 200px;
+    padding-right:80px
+}
+.imgc{
+    padding-top: 60px;
+    padding-right: 100px;
+}
+
+.imga:hover{
+    transform: scale(1.2)
+}
+.imgc:hover{
+    transform: scale(1.2)
+}
+.imge:hover{
+    transform: scale(1.2)
+}
+.imgf:hover{
+    transform: scale(1.2)
+}
+.imgh:hover{
+    transform: scale(1.2)
+}
+.imgg:hover{
+    transform: scale(1.2)
+}
